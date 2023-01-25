@@ -8,7 +8,10 @@
 
 body {
     font-size: 16px;
-    background-color: white;
+    background-image: url(../img/paper-bg-texture.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgba(65, 30, 72, 0.977);
     color: black;
 }
 
@@ -16,17 +19,102 @@ body {
     display: none;
 }
 
+header {
+    background-color: rgba(176, 134, 185, 0.5); 
+    height: 100px;
+}
+
+header h2 {
+    color: rgb(109, 243, 104);
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -55px;
+}
+
+#logo {
+    width:60px;
+    margin-top: 20px;
+    margin-left: 50px;
+    display: inline-flex;
+}
+
 .icon-container {
     text-align: center;
 }
 
 .wrapper {
-    width: 25%;
+    width: 20%;
     display: inline-block;
 
-    padding: 1em;
+    padding: 2em;
 }
 
 .wrapper img {
     width: 100%;
+}
+
+#cat2 {
+    width: 15%;
+}
+
+/* #cat1:hover .eye {fill:black; transition: all 0.5s ease;} */
+
+#cat1:hover .eye { fill: rgb(109, 243, 104); transition: 0.45s ease;} 
+#cat2:hover .eye { fill: rgb(109, 243, 104); transition: 0.45s ease;} 
+#cat3:hover .eye { fill: rgb(109, 243, 104); transition: 0.45s ease;} 
+#cat4:hover .eye { fill: rgb(109, 243, 104); transition: 0.45s ease;} 
+#cat5:hover .eye { fill: rgb(109, 243, 104); transition: 0.45s ease;} 
+#cat6:hover .eye { fill: rgb(109, 243, 104); transition: 0.45s ease;} 
+#cat7:hover .eye { fill: rgb(109, 243, 104); transition: 0.45s ease;} 
+#cat8:hover .eye { fill: rgb(109, 243, 104); transition: 0.45s ease;} 
+#cat9:hover .eye { fill: rgb(109, 243, 104); transition: 0.45s ease;} 
+#cat10:hover .eye { fill: rgb(109, 243, 104); transition: 0.45s ease;} 
+
+footer {
+    background-color: rgba(14, 2, 16, 0.8); 
+    color: rgb(109, 243, 104);
+    height: 150px;
+    bottom: 0px;
+}
+
+#footer-title {
+    color: rgb(109, 243, 104);
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#svg-words {
+    color: cadetblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#svc-words {
+    color: hotpink;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#thanks {
+    color: cornsilk;
+    font-weight: bold;
 }
